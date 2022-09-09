@@ -19,27 +19,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oJL-hK-vuK">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oJL-hK-vuK">
                                 <rect key="frame" x="20" y="380.66666666666669" width="131.33333333333334" height="105.66666666666669"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="fF4-TK-VuZ" appends="YES" id="Gaa-Nc-QW8"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PEu-6i-cSo">
-                                <rect key="frame" x="20" y="536" width="131.33333333333334" height="105.33333333333337"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PEu-6i-cSo">
+                                <rect key="frame" x="20" y="536" width="131.33333333333334" height="105.66666666666663"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="LEm-wk-8dC" appends="YES" id="d2n-n2-Uwi"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Ig-1A-sW7">
-                                <rect key="frame" x="223.66666666666663" y="536" width="131.33333333333337" height="105.33333333333337"/>
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0Ig-1A-sW7">
+                                <rect key="frame" x="223.66666666666663" y="536" width="131.33333333333337" height="105.66666666666663"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="tWk-Xq-6VI" appends="YES" id="GDR-fI-9Wc"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ptz-Xh-Y0Y">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ptz-Xh-Y0Y">
                                 <rect key="frame" x="223.66666666666663" y="380.66666666666669" width="131.33333333333337" height="105.66666666666669"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="H8m-Js-p50" appends="YES" id="t97-16-aaC"/>
+                                </connections>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WTA-bJ-tlq">
+                            <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WTA-bJ-tlq">
                                 <rect key="frame" x="68" y="65.666666666666686" width="239" height="203"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Social Media" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bu-37-SzS">
-                                <rect key="frame" x="8" y="276.66666666666669" width="359" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Instagram" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdW-Zq-6aV">
                                 <rect key="frame" x="45" y="495" width="77" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -53,13 +63,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snapchat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afN-tA-kAf">
-                                <rect key="frame" x="252" y="661.33333333333337" width="73" height="21"/>
+                                <rect key="frame" x="252" y="661.66666666666663" width="73" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Messenger" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43h-uI-DZh">
-                                <rect key="frame" x="40" y="661.33333333333337" width="85" height="21"/>
+                                <rect key="frame" x="40" y="661.66666666666663" width="85" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Social Media" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7bu-37-SzS">
+                                <rect key="frame" x="8" y="276" width="359" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -101,10 +117,33 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="lblOpcionSeleccionada" destination="7bu-37-SzS" id="dRi-IW-RCl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="fF4-TK-VuZ" userLabel="TapInsta">
+                    <connections>
+                        <action selector="doTapInstagram:" destination="BYZ-38-t0r" id="JLE-Tr-I4g"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="H8m-Js-p50" userLabel="TapTwitter">
+                    <connections>
+                        <action selector="doTapTwitter:" destination="BYZ-38-t0r" id="q4Y-Rm-F7g"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="LEm-wk-8dC" userLabel="TapMessenger">
+                    <connections>
+                        <action selector="doTapMessenger:" destination="BYZ-38-t0r" id="2lM-ji-u4v"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="tWk-Xq-6VI" userLabel="TapSnapchat">
+                    <connections>
+                        <action selector="doTapSnapchat:" destination="BYZ-38-t0r" id="BVx-uq-OY1"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
+            <point key="canvasLocation" x="66" y="125"/>
         </scene>
     </scenes>
 </document>
